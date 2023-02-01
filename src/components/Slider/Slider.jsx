@@ -21,7 +21,7 @@ export default function Slider() {
 
   return (
     <div className="slider">
-      <div className="container"
+      <div className="containerSlider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         <img src={bannersForSlider[0].src} alt="" />
         <img src={bannersForSlider[1].src} alt="" />

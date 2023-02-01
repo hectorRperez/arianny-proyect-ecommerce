@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer containerElement'>
       <div className="top-footer">
         <div className="column-footer">
           <span className='titleFooter'>Categories</span>

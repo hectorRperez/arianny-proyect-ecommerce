@@ -6,11 +6,11 @@ import Card from '../Card/Card';
 
 import "./FeaturedProducts.scss";
 
-function FeaturedProducts() {
+function FeaturedProducts({ type }) {
   return (
     <div className='featured'>
       <div className="featureHeader">
-        <h2 className='featureHeader__title'>Featured Products</h2>
+        <h2 className='featureHeader__title'>{type}</h2>
         <p className='featureHeader__content'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit sit voluptate inventore non porro! Blanditiis explicabo delectus, tenetur alias tempore eos quis eligendi vel provident quod ad voluptatem maxime?</p>
       </div>
       <div className="featuredWrapper">
